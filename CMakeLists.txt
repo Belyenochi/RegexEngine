@@ -4,4 +4,4 @@ project(RegularEngine)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(RegularEngine main.cpp DFARulebook.h NFARulebook.h StateTranRule.h)
+add_executable(RegularEngine Parser/RegexParser.cpp Parser/main.cpp)
